@@ -42,7 +42,7 @@ public class RemovesDuplicates {
         printList(k1);
     }
 
-    public static void printList(List`Node head) {
+    public static void printList(ListNode head) {
         while(head!=null) {
             System.out.println(head.val);
             head = head.next;
